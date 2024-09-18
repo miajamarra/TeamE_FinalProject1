@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.teamerestaurant.onlineOrderInfoPT1">
+   <VBox prefHeight="500.0" prefWidth="450.0">
+      <Label text="First Name"/>
+      <TextField fx:id="firstName"/>
+      <Label text="Last Name"/>
+      <TextField fx:id="lastName"/>
+      <Label text="Phone Number"/>
+      <TextField fx:id="phoneNumber"/>
+      <Label text="Card Type"/>
+      <ChoiceBox fx:id="cardBrand" prefWidth="150.0"/>
+      <Label text="Billing Address"/>
+      <TextField fx:id="billingAddress"/>
+      <Label text="Card Number"/>
+      <TextField fx:id="cardNumber"/>
+      <Label text="Exp. Month"/>
+      <TextField fx:id="expMonth"/>
+      <Label text="Exp. Year"/>
+      <TextField fx:id="expYear"/>
+      <Label text="Security Number"/>
+      <TextField fx:id="securityNum"/>
+      <Button mnemonicParsing="false" onAction="#onContinueButtonClick" text="Continue" translateX="190.0"
+              translateY="30.0"/>
+   </VBox>
+</AnchorPane>

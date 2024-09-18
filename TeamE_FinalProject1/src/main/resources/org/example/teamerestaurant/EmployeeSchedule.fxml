@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="258.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.teamerestaurant.EmployeeScheduleController">
+   <children>
+      <Label layoutX="73.0" prefHeight="51.0" prefWidth="459.0" text="EMPLOYEE SCHEDULE / HOURS">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fixedCellSize="2.0" layoutX="6.0" layoutY="47.0" prefHeight="166.0" prefWidth="649.0" translateY="-1.0">
+        <columns>
+          <TableColumn fx:id="employeeName" prefWidth="102.0" text="Employee Name" />
+          <TableColumn prefWidth="64.0" text="Sun" />
+            <TableColumn prefWidth="71.0" text="Mon" />
+            <TableColumn prefWidth="63.0" text="Tues" />
+            <TableColumn prefWidth="67.0" text="Wed" />
+            <TableColumn prefWidth="66.0" text="Thurs" />
+            <TableColumn prefWidth="62.0" text="Fri" />
+            <TableColumn prefWidth="63.0" text="Sat" />
+            <TableColumn prefWidth="90.0" text="Total Hours " />
+        </columns>
+      </TableView>
+      <ListView layoutX="6.0" layoutY="70.0" prefHeight="142.0" prefWidth="649.0" />
+      <Label layoutX="18.0" layoutY="74.0" prefHeight="29.0" prefWidth="78.0" text="Mia Lacey">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Separator layoutX="5.0" layoutY="85.0" prefHeight="39.0" prefWidth="649.0" />
+      <Separator layoutX="104.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="11.0" />
+      <Separator layoutX="168.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="11.0" />
+      <Separator layoutX="239.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="11.0" />
+      <Separator layoutX="305.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="0.0" />
+      <Separator layoutX="372.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="0.0" />
+      <Separator layoutX="438.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="6.0" />
+      <Separator layoutX="500.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="6.0" />
+      <Separator layoutX="563.0" layoutY="70.0" orientation="VERTICAL" prefHeight="142.0" prefWidth="6.0" />
+       <Label layoutX="13.0" layoutY="110.0" prefHeight="29.0" prefWidth="85.0" text="Laura Speth">
+           <font>
+               <Font size="15.0" />
+           </font>
+       </Label>
+       <Separator layoutX="6.0" layoutY="125.0" prefHeight="29.0" prefWidth="649.0" />
+       <Label layoutX="13.0" layoutY="140.0" prefHeight="29.0" prefWidth="96.0" text="Krista Clanton">
+           <font>
+               <Font size="15.0" />
+           </font>
+       </Label>
+       <Separator layoutX="5.0" layoutY="158.0" prefHeight="29.0" prefWidth="649.0" />
+       <Label layoutX="9.0" layoutY="173.0" prefHeight="29.0" prefWidth="96.0" text="Ben Britton">
+           <font>
+               <Font size="15.0" />
+           </font>
+       </Label>
+      <Label layoutX="109.0" layoutY="71.0" prefHeight="29.0" prefWidth="62.0" text="7am-12pm" />
+      <Label layoutX="109.0" layoutY="106.0" prefHeight="29.0" prefWidth="62.0" text="7am-12pm" />
+      <Label layoutX="115.0" layoutY="138.0" prefHeight="29.0" prefWidth="55.0" text="   OFF" />
+      <Label layoutX="111.0" layoutY="179.0" prefHeight="29.0" prefWidth="62.0" text="12pm-8pm" />
+      <Label layoutX="181.0" layoutY="67.0" prefHeight="39.0" prefWidth="70.0" text="  OFF" />
+      <Label layoutX="175.0" layoutY="106.0" prefHeight="29.0" prefWidth="62.0" text="4pm-9pm" />
+      <Label layoutX="179.0" layoutY="138.0" prefHeight="29.0" prefWidth="62.0" text="   OFF" />
+      <Label layoutX="175.0" layoutY="179.0" prefHeight="29.0" prefWidth="62.0" text="4pm-9pm" />
+       <Label layoutX="244.0" layoutY="67.0" prefHeight="39.0" prefWidth="70.0" text="4:30-10pm" />
+       <Label layoutX="245.0" layoutY="108.0" prefHeight="29.0" prefWidth="62.0" text="7am-12pm" />
+       <Label layoutX="245.0" layoutY="140.0" prefHeight="29.0" prefWidth="62.0" text="   OFF" />
+       <Label layoutX="245.0" layoutY="179.0" prefHeight="29.0" prefWidth="62.0" text="7am-10am" />
+       <Label layoutX="308.0" layoutY="66.0" prefHeight="39.0" prefWidth="70.0" text="5pm-10pm" />
+       <Label layoutX="311.0" layoutY="109.0" prefHeight="29.0" prefWidth="62.0" text="   OFF" />
+       <Label layoutX="307.0" layoutY="139.0" prefHeight="29.0" prefWidth="62.0" text="7am-12pm" />
+       <Label layoutX="307.0" layoutY="179.0" prefHeight="29.0" prefWidth="62.0" text="    OFF" />
+       <Label layoutX="505.0" layoutY="69.0" prefHeight="39.0" prefWidth="70.0" text="7am-12pm" />
+       <Label layoutX="509.0" layoutY="110.0" prefHeight="29.0" prefWidth="62.0" text="  OFF" />
+       <Label layoutX="502.0" layoutY="140.0" prefHeight="29.0" prefWidth="62.0" text="12pm-9pm" />
+       <Label layoutX="507.0" layoutY="179.0" prefHeight="29.0" prefWidth="32.0" text="   OFF" />
+       <Label layoutX="441.0" layoutY="69.0" prefHeight="39.0" prefWidth="70.0" text="12pm-4pm" />
+       <Label layoutX="445.0" layoutY="109.0" prefHeight="29.0" prefWidth="62.0" text="   OFF" />
+       <Label layoutX="440.0" layoutY="142.0" prefHeight="29.0" prefWidth="62.0" text="12pm-4pm" />
+       <Label layoutX="442.0" layoutY="179.0" prefHeight="29.0" prefWidth="62.0" text="4pm-10pm" />
+       <Label layoutX="587.0" layoutY="69.0" prefHeight="39.0" prefWidth="70.0" text="24.5" />
+       <Label layoutX="590.0" layoutY="109.0" prefHeight="29.0" prefWidth="62.0" text="20" />
+       <Label layoutX="591.0" layoutY="138.0" prefHeight="29.0" prefWidth="62.0" text="23" />
+       <Label layoutX="591.0" layoutY="173.0" prefHeight="29.0" prefWidth="62.0" text="26" />
+       <Label layoutX="386.0" layoutY="69.0" prefHeight="39.0" prefWidth="70.0" text="OFF" />
+       <Label layoutX="375.0" layoutY="108.0" prefHeight="29.0" prefWidth="62.0" text="4pm-9pm" />
+       <Label layoutX="380.0" layoutY="141.0" prefHeight="29.0" prefWidth="62.0" text="7am-12pm" />
+       <Label layoutX="375.0" layoutY="179.0" prefHeight="29.0" prefWidth="62.0" text="12pm-4pm" />
+   </children>
+</AnchorPane>

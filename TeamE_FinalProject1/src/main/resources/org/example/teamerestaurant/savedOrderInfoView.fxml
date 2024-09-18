@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.teamerestaurant.savedOrderInfo">
+   <VBox prefHeight="500.0" prefWidth="450.0">
+      <Label text=" Saved Online Order Information" textAlignment="RIGHT">
+         <font>
+            <Font name="Copperplate Gothic Light" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="onlineOrderPT1Info" prefHeight="200.0" prefWidth="350.0" text="Label" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="onlineOrderPT2Info" prefHeight="100.0" prefWidth="350.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </VBox>
+</AnchorPane>

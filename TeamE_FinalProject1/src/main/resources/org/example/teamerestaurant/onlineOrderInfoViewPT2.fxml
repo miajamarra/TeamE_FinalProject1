@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.teamerestaurant.onlineOrderInfoPT2">
+   <children>
+      <Label layoutX="3.0" layoutY="2.0" prefWidth="100.0" text="Street Address:" translateX="35.0" translateY="172.0" />
+      <Label layoutX="22.0" prefWidth="100.0" text="Town/City:" translateX="40.0" translateY="245.0" />
+      <Label layoutX="47.0" layoutY="-16.0" prefWidth="50.0" text="State:" translateX="40.0" translateY="338.0" />
+      <Label layoutX="28.0" layoutY="-4.0" prefWidth="50.0" text="Zip code:" translateX="40.0" translateY="103.0" />
+      <TextField fx:id="zipCode" layoutX="77.0" layoutY="-29.0" prefHeight="13.0" prefWidth="200.0" translateX="46.0" translateY="125.0" />
+      <TextField fx:id="streetAddress" layoutX="78.0" layoutY="44.0" prefHeight="26.0" prefWidth="200.0" translateX="46.0" translateY="125.0" />
+      <TextField fx:id="town" layoutX="78.0" layoutY="116.0" prefHeight="26.0" prefWidth="200.0" translateX="46.0" translateY="125.0" />
+      <TextField fx:id="state" layoutX="77.0" layoutY="191.0" prefHeight="26.0" prefWidth="200.0" translateX="46.0" translateY="125.0" />
+      <Button layoutX="197.0" layoutY="393.0" mnemonicParsing="false" onAction="#onSaveButtonClick" text="Save" />
+   </children>
+</AnchorPane>

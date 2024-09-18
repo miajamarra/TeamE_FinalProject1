@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.teamerestaurant.RegisterAccount">
+   <children>
+      <VBox layoutX="75.0" layoutY="52.0" prefHeight="295.0" prefWidth="450.0">
+         <children>
+            <Label text="Username " translateX="50.0" translateY="35.0" />
+            <TextField fx:id="username" translateX="-50.0" translateY="-45.0">
+               <VBox.margin>
+                  <Insets left="180.0" right="60.0" top="60.0" />
+               </VBox.margin>
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis></TextField>
+            <Label text="Password" translateX="50.0" translateY="-20.0" />
+            <PasswordField fx:id="password" maxHeight="25.0" maxWidth="210.0" prefHeight="25.0" prefWidth="210.0" translateX="130.0" translateY="-40.0" />
+            <Button mnemonicParsing="false" onAction="#onRegisterButtonClick" text="Click to Register" textFill="#252323" translateX="130.0" />
+         </children></VBox>
+   </children>
+</AnchorPane>

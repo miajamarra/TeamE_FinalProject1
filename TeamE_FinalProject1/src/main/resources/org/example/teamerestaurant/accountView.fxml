@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.teamerestaurant.account">
+   <children>
+      <VBox prefHeight="500.0" prefWidth="450.0">
+         <children>
+            <TextField fx:id="username" prefHeight="25.0" prefWidth="78.0">
+               <VBox.margin>
+                  <Insets left="180.0" right="60.0" top="60.0" />
+               </VBox.margin></TextField>
+            <Label text="Username" translateX="67.0" translateY="-20.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin></Label>
+            <PasswordField fx:id="password">
+               <VBox.margin>
+                  <Insets bottom="60.0" left="180.0" right="60.0" top="30.0" />
+               </VBox.margin></PasswordField>
+            <Label alignment="BOTTOM_CENTER" text="Password" translateX="70.0" translateY="-81.0" />
+            <ButtonBar prefHeight="40.0" prefWidth="200.0">
+              <buttons>
+                <Button mnemonicParsing="false" onAction="#onLoginButtonClick" text="Sign In" translateX="-47.0" translateY="-55.0" />
+                <Button mnemonicParsing="false" onAction="#onRegisterButtonClick" text="Register Account" translateX="-162.0" />
+              </buttons>
+            </ButtonBar>
+         </children></VBox>
+      <TextFlow prefHeight="200.0" prefWidth="200.0" />
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
